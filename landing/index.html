@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Enriqueta:wght@400;500;600;700&family=Lexend+Peta:wght@100..900&family=Markazi+Text:wght@400..700&family=Scheherazade+New:wght@400;500;600;700&display=swap');
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .font{
+            font-family: "Alumni Sans Pinstripe", serif;
+            font-weight: 700;
+            font-style: bold;
+        }
+        header {
+            background-color: #008cff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            height: 3rem;
+        }
+        .title{
+            font-size: 32px;
+            position: relative;
+        }
+        .under{
+            position: absolute;
+            text-align: center;
+            right: 76%;
+        }
+        .page{
+            padding-left: 50rem;
+            font-size: 32px;
+            
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .hero button {
+            background-color: #ffcc00;
+            border: 1px solid black;
+            padding: 10px 30px;
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 5rem;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #e6b800;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            justify-content: end;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="font"><a class="title">Aditya Chauhan</a><a class="page">Landing Page</a></div>
+    <div class="under">Computer Science</div>
+</header>
+
+<nav>
+</nav>
+
+<div class="hero">
+    <button onclick="Visit()">Visit Portfolio!</button>
+</div>
+<footer>
+    <p>Copyright &#169 adityasportfolio.com | All rights reserved</p>
+</footer>
+
+<script>
+    function Visit() {
+        window.location.href = "#";
+    }
+</script>
+
+</body>
+</html>
