@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    color:black;
+}
+header{
+    margin: 5rem;
+    display: flex;
+}
+.picture{
+    margin-left: 26rem;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.details{
+    align-content: center;
+}
+#name{
+    font-size: 32px;
+    text-decoration: underline;
+}
+.details div{
+    font-size: 18px;
+}
+.career{
+    margin: 2rem;
+}
+.objective p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
