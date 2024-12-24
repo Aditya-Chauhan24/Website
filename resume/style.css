@@ -30,8 +30,26 @@ header{
 .career{
     margin: 2rem;
 }
+.prg{
+    margin-top: 2rem;
+}
+.tech{
+    margin-top: 2rem;
+}
+.stren{
+    margin-top: 2rem;
+}
 .objective p{
     margin-top: 10px;
     font-size: 18px;
     margin-bottom: 2rem;
+}
+table{
+    text-align: center;
+}
+.tech ul li{
+    margin-top: 10px;
+}
+.str{
+    margin-top: 10px;
 }
