@@ -9,12 +9,17 @@ header{
     margin: 5rem;
     display: flex;
 }
+img{
+    height: 400px;
+    width: 200px;
+}
 .picture{
-    margin-left: 26rem;
+    margin-left: 18rem;
     height: 300px;
-    width: 300px;
+    width: 200px;
     border: 2px solid black;
     border-radius: 20px;
+    overflow: hidden;
 }
 .details{
     align-content: center;
