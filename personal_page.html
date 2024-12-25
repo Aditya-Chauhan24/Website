@@ -129,8 +129,8 @@
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <div class="button">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">Vist Github</button>
+                    <button onclick="Visit()" class="btn">Visit Resume</button>
+                    <button onclick="github()" class="btn">Vist Github</button>
                 </div>
             </div>
             <div class="rightsection">
@@ -178,6 +178,13 @@
           strings: ['Web Developer', 'Game Developer','Web Designer'],
           typeSpeed: 50,
         });
+            function resume() {
+                window.location.href = "/Users/apple/Documents/Website/resume/index.html";
+            }
+            function github() {
+                window.location.href = "https://github.com/Aditya-Chauhan24";
+            }
       </script>
+      
 </body>
 </html>
